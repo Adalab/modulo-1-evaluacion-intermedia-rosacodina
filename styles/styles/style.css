@@ -11,4 +11,29 @@
 }
 
 .menu {
+  list-style: none;
+  display: flex;
+}
+
+.option-blog {
+  margin: 10px 20px 13px auto;
+}
+
+.option-contact {
+  margin: 20px 10px auto 13px;
+}
+
+.main-body {
+  background-color: #3cdbc0;
+  height: 100vh;
+}
+
+.tittle-container {
+}
+
+.tittle {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
 }
