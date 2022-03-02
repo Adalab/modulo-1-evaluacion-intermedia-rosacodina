@@ -59,4 +59,17 @@
 /*BODY*/
 
 @media all and (min-width: 768px) {
+  .menu {
+    text-align: right;
+  }
+  .option-blog {
+    font-size: 16px;
+  }
+  
+  .option-contact {
+    font-size: 16px;
+}
+
+.title {
+  font-size: 40px;
 }
