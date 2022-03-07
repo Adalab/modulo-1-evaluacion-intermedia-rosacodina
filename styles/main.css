@@ -3,11 +3,13 @@
 }
 
 /*HEADER*/
-.logo-container {
-  align-items: center;
+.header {
+  margin-top: 0%;
+  padding: 0%;
 }
 
-.logo {
+.logo-container {
+  align-items: center;
   width: 155px;
   margin: 10px auto 10px auto;
   display: flex;
@@ -26,10 +28,14 @@
 
 .option-blog {
   margin: 10px 20px 13px auto;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .option-contact {
   margin: 20px 10px auto 13px;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 /*HEADER*/
 
@@ -46,7 +52,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: auto;
 }
 
 .title {
@@ -54,22 +59,13 @@
   text-align: center;
   font-size: 30px;
   color: white;
-  margin: 0%;
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
 }
 /*BODY*/
 
-@media all and (min-width: 768px) {
-  .menu {
-    text-align: right;
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .title {
+    font-size: 40px;
   }
-  .option-blog {
-    font-size: 16px;
-  }
-  
-  .option-contact {
-    font-size: 16px;
-}
-
-.title {
-  font-size: 40px;
 }
